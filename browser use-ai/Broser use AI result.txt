@@ -1,0 +1,14 @@
+
+
+My prompt in browser use AI was:
+
+Search the internet for 5 courses on basic AI and ML from NPTEL and also return the time it takes to complete the course 
+
+The Result was:(it took 17 steps and around 2 minutes)
+Here are 5 basic AI / ML courses on NPTEL along with the time required to complete each course:
+
+Introduction to Machine Learning – 12 weeks
+An Introduction to Artificial Intelligence – 12 weeks
+Fundamentals of Artificial Intelligence – 12 weeks
+Artificial Intelligence: Concepts and Techniques – 12 weeks
+Introduction to Machine Learning (IIT Kharagpur) – 8 weeks
