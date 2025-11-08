@@ -1,0 +1,70 @@
+Linear regression output 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Loaded 48 team names
+Features preview:
+    team name  matches_played_home  ...  win_count  win_rate
+0    Algeria                    6  ...         91  0.594771
+1  Argentina                   52  ...        219  0.657658
+2  Australia                    6  ...        279  0.728460
+3    Austria                   13  ...        117  0.554502
+4    Belgium                   17  ...        229  0.629121
+
+[5 rows x 38 columns]
+
+Group Stage:
+
+Group A: ['Algeria', 'Argentina', 'Brazil', 'England']
+Argentina defeats Algeria (3 points for Argentina) -> score diff -6.00
+Brazil defeats Algeria (3 points for Brazil) -> score diff -6.00
+England defeats Algeria (3 points for England) -> score diff -7.00
+Argentina draws with Brazil (1 point each) -> score diff 0.00
+England defeats Argentina (3 points for England) -> score diff -1.00
+England defeats Brazil (3 points for England) -> score diff -1.00
+Points Table: {'Algeria': 0, 'Argentina': 4, 'Brazil': 4, 'England': 9}
+
+Group B: ['Egypt', 'Denmark', 'Cape Verde', 'Colombia']
+Denmark defeats Egypt (3 points for Denmark) -> score diff -1.00
+Cape Verde defeats Egypt (3 points for Cape Verde) -> score diff -0.78
+Egypt draws with Colombia (1 point each) -> score diff 0.00
+Denmark defeats Cape Verde (3 points for Denmark) -> score diff 0.22
+Denmark defeats Colombia (3 points for Denmark) -> score diff 1.00
+Cape Verde defeats Colombia (3 points for Cape Verde) -> score diff 0.78
+Points Table: {'Egypt': 1, 'Denmark': 9, 'Cape Verde': 6, 'Colombia': 1}
+
+Group C: ['Australia', 'France', 'Belgium', 'Canada']
+Australia draws with France (1 point each) -> score diff 0.00
+Australia defeats Belgium (3 points for Australia) -> score diff 2.00
+Australia defeats Canada (3 points for Australia) -> score diff 6.00
+France defeats Belgium (3 points for France) -> score diff 2.00
+France defeats Canada (3 points for France) -> score diff 6.00
+Belgium defeats Canada (3 points for Belgium) -> score diff 4.00
+Points Table: {'Australia': 7, 'France': 7, 'Belgium': 3, 'Canada': 0}
+
+Group D: ['Croatia', 'Ecuador', 'Austria', 'Cameroon']
+Croatia defeats Ecuador (3 points for Croatia) -> score diff 1.00
+Croatia defeats Austria (3 points for Croatia) -> score diff 5.00
+Croatia defeats Cameroon (3 points for Croatia) -> score diff 1.00
+Ecuador defeats Austria (3 points for Ecuador) -> score diff 4.00
+Ecuador draws with Cameroon (1 point each) -> score diff -0.00
+Cameroon defeats Austria (3 points for Cameroon) -> score diff -4.00
+Points Table: {'Croatia': 9, 'Ecuador': 4, 'Austria': 0, 'Cameroon': 4}
+
+Advancing to Knockout: ['England', 'Argentina', 'Denmark', 'Cape Verde', 'Australia', 'France', 'Croatia', 'Ecuador']
+
+Knockout Round 1:
+England vs Argentina -> England advances (pred diff 1.00)
+Denmark vs Cape Verde -> Denmark advances (pred diff 0.22)
+Australia vs France -> Australia advances (pred diff 0.00)
+Croatia vs Ecuador -> Croatia advances (pred diff 1.00)
+
+Knockout Round 2:
+England vs Denmark -> England advances (pred diff 6.00)
+Australia vs Croatia -> Australia advances (pred diff 1.00)
+
+Knockout Round 3:
+England vs Australia -> England advances (pred diff 1.00)
+
+Tournament Winner: England
+
+[Done] exited with code=0 in 7.929 seconds

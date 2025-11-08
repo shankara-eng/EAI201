@@ -1,0 +1,42 @@
+Preparing match data...
+
+Training models...
+Training Random Forest...
+Training Logistic Regression...
+
+Generating ROC curves...
+Generating confusion matrices...
+
+Calculating performance metrics...
+
+==================================================
+Random Forest Metrics:
+==================================================
+Accuracy:  0.991
+Precision: 1.000
+Recall:    0.981
+F1 Score:  0.991
+Model comparison output
+
+
+Confusion Matrix:
+                  Predicted Team A   Predicted Team B
+Actually Team A      217                0
+Actually Team B      4                212
+
+==================================================
+Logistic Regression Metrics:
+==================================================
+Accuracy:  0.995
+Precision: 0.991
+Recall:    1.000
+F1 Score:  0.995
+
+Confusion Matrix:
+                  Predicted Team A   Predicted Team B
+Actually Team A      215                2
+Actually Team B      0                216
+
+Analysis complete!
+- ROC curves saved as 'roc_curves_comparison.png'
+- Confusion matrices saved as 'confusion_matrices_comparison.png'

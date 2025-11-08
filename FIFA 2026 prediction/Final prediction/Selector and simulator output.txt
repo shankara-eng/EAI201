@@ -1,0 +1,30 @@
+Selector and simulator output 
+Training model...
+Model trained. Select teams and run simulation.
+Running 500 simulations with 16 teams (probabilistic=True)...
+  Completed 50/500
+  Completed 100/500
+  Completed 150/500
+  Completed 200/500
+  Completed 250/500
+  Completed 300/500
+  Completed 350/500
+  Completed 400/500
+  Completed 450/500
+  Completed 500/500
+Simulation complete. Top finalists:
+  Brazil: 474.0 (0.948)
+  Netherlands: 235.0 (0.470)
+  Argentina: 177.0 (0.354)
+  Morocco: 78.0 (0.156)
+  Japan: 26.0 (0.052)
+  Croatia: 5.0 (0.010)
+  Mexico: 2.0 (0.004)
+  Belgium: 2.0 (0.004)
+  Cameroon: 1.0 (0.002)
+Top winners:
+  Brazil: 447.0 (0.894)
+  Netherlands: 36.0 (0.072)
+  Argentina: 17.0 (0.034)
+Saved CSVs: selected_predicted_finalists.csv, selected_predicted_winners.csv, selected_predicted_pairs.csv
+

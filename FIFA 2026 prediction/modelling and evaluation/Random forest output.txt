@@ -1,0 +1,72 @@
+Random forest output
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Loaded 48 team names from Excel.
+Features preview:
+    team name  matches_played_home  ...  win_count  win_rate
+0    Algeria                    6  ...         91  0.594771
+1  Argentina                   52  ...        219  0.657658
+2  Australia                    6  ...        279  0.728460
+3    Austria                   13  ...        117  0.554502
+4    Belgium                   17  ...        229  0.629121
+
+[5 rows x 38 columns]
+Proceeding with 48 mapped teams (duplicates removed).
+
+Group Stage:
+
+Group A: ['Algeria', 'Argentina', 'Brazil', 'England']
+Argentina defeats Algeria (3 points for Argentina)
+Brazil defeats Algeria (3 points for Brazil)
+England defeats Algeria (3 points for England)
+Brazil defeats Argentina (3 points for Brazil)
+England defeats Argentina (3 points for England)
+Brazil defeats England (3 points for Brazil)
+Points Table: {'Algeria': 0, 'Argentina': 3, 'Brazil': 9, 'England': 6}
+
+Group B: ['Egypt', 'Denmark', 'Cape Verde', 'Colombia']
+Denmark defeats Egypt (3 points for Denmark)
+Cape Verde defeats Egypt (3 points for Cape Verde)
+Colombia defeats Egypt (3 points for Colombia)
+Cape Verde defeats Denmark (3 points for Cape Verde)
+Denmark defeats Colombia (3 points for Denmark)
+Cape Verde defeats Colombia (3 points for Cape Verde)
+Points Table: {'Egypt': 0, 'Denmark': 6, 'Cape Verde': 9, 'Colombia': 3}
+
+Group C: ['Australia', 'France', 'Belgium', 'Canada']
+France defeats Australia (3 points for France)
+Australia defeats Belgium (3 points for Australia)
+Australia defeats Canada (3 points for Australia)
+France defeats Belgium (3 points for France)
+France defeats Canada (3 points for France)
+Belgium defeats Canada (3 points for Belgium)
+Points Table: {'Australia': 6, 'France': 9, 'Belgium': 3, 'Canada': 0}
+
+Group D: ['Croatia', 'Ecuador', 'Austria', 'Cameroon']
+Croatia defeats Ecuador (3 points for Croatia)
+Croatia defeats Austria (3 points for Croatia)
+Croatia defeats Cameroon (3 points for Croatia)
+Ecuador defeats Austria (3 points for Ecuador)
+Cameroon defeats Ecuador (3 points for Cameroon)
+Cameroon defeats Austria (3 points for Cameroon)
+Points Table: {'Croatia': 9, 'Ecuador': 3, 'Austria': 0, 'Cameroon': 6}
+
+Advancing to Knockout: ['Brazil', 'England', 'Cape Verde', 'Denmark', 'France', 'Australia', 'Croatia', 'Cameroon']
+
+Knockout Round 1:
+Brazil vs England -> Brazil advances
+Cape Verde vs Denmark -> Cape Verde advances
+France vs Australia -> France advances
+Croatia vs Cameroon -> Croatia advances
+
+Knockout Round 2:
+Brazil vs Cape Verde -> Brazil advances
+France vs Croatia -> France advances
+
+Knockout Round 3:
+Brazil vs France -> Brazil advances
+
+Tournament Winner: Brazil
